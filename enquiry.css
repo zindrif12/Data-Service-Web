@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;800&display=swap');
+
+:root{
+  --black:#192a56;
+  --orange:#F95F1D;
+  --yellow:#ffa801;
+}
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none; border:none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+section{
+  padding:0 7%;
+  padding-top: 7.5rem;
+  padding-bottom: 3rem;
+  min-height: 100vh;
+}
+
+.btn{
+  display: inline-block;
+  margin-top: 1rem;
+  padding:.7rem 2.5rem;
+  font-size: 1.7rem;
+  color:var(--yellow);
+  border:.2rem solid var(--yellow);
+  cursor: pointer;
+  background:none;
+}
+
+.btn:hover{
+  background:var(--yellow);
+  color:#fff;
+}
+
+.heading{
+  text-align: center;
+  color:var(--black);
+  padding:1rem;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+}
+
+header{
+  position: fixed;
+  top:0; left:0;
+  width:100%;
+  z-index: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:2rem 7%;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  z-index: 1000;
+}
+
+header .logo{
+  font-size: 2.5rem;
+  color:#666;
+  font-weight: bolder;
+}
+
+header .navbar a{
+  font-size: 2rem;
+  margin-left: 2.5rem;
+  color:var(--black);
+}
+
+header .navbar a:hover{
+  color:var(--orange);
+}
+
+#menu-bar{
+  font-size: 3rem;
+  color:var(--black);
+  cursor: pointer;
+  display: none;
+}
+
+
+
+/*ENQUIRY*/
+.container{
+	background: #2d3e3f;
+	width: 800px;
+	height: 750px;
+	padding-bottom: 20px;
+	position: absolute;
+	top:60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+  padding: 70px 50px 20px 50px;
+}
+
+
+.fl{
+	float: left;
+  width: 110px;
+  line-height: 35px;
+}
+
+.fontLabel{
+  color: white;
+}
+
+.fr{
+	float: right;
+}
+
+.clr{
+	clear: both;
+}
+
+.box{
+	width: 360px;
+  margin-left: 130px;
+	height: 35px;
+	margin-top: 10px;
+	font-family: verdana;
+	font-size: 12px;
+}
+
+.textBox{
+	height: 35px;
+  padding: 10px;
+	width: 200px;
+	border: none;
+  padding-left: 20px;
+}
+
+.new{
+  float: left;
+}
+
+.iconBox{
+	height: 35px;
+	width: 40px;
+	line-height: 38px;
+	text-align: center;
+  background: #ff6600;
+}
+
+.radio{
+	color: white;
+	background: #2d3e3f;
+	line-height: 38px;
+}
+
+.terms{
+	line-height: 35px;
+	text-align: center;
+	background: #2d3e3f;
+	color: white;
+}
+
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+
+.submit{
+  left: 20px;
+	border: none;
+  border-radius: 8px;
+	color: white;
+	width: 450px;
+	height: 35px;
+	background: #ff6600;
+	text-transform: uppercase;
+  cursor: pointer;
+}
+
